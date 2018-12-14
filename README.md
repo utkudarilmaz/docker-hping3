@@ -9,12 +9,12 @@ cd docker-hping3
 
 docker build -t hping3:latest .
 
-docker run -d hping3:latest hping3 <target-ip> [parameters]
+docker run -d hping3:latest hping3 <<target-ip>> [parameters]
 
 ### Or:
 
 docker pull utkudarilmaz/hping3:latest
 
-docker run -d utkudarilmaz/hping3:latest hping3 <target-ip> [parameters]
+docker run -d utkudarilmaz/hping3:latest hping3 <<target-ip>> [parameters]
 
 
